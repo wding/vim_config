@@ -1,0 +1,3 @@
+Post installation steps:
+1, command-t needs to run rake make in its diretory. (/.vim/bundle/command-t)
+2, run :Helptags to generate help files. then run for example :help rails
