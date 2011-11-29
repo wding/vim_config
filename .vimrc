@@ -77,6 +77,7 @@ endfunction
 
 nnoremap <leader>rr :call ToggleRelativeNumber()<cr>
 nnoremap <leader>w :%s/\s\+$//<cr>:let @/=''<CR><C-o>
+nnoremap <leader>ff :CommandTFlush<CR>
 nnoremap <leader>ss :source $MYVIMRC<cr>
 nnoremap <leader>ee :tabe $MYVIMRC<cr>
 nnoremap <silent> <LocalLeader><space> :noh<CR>
